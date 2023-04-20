@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Rubik", sans-serif;
+}
+body{
+    background-image: url('Cute-Emoji-Wallpaper-Funny.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color:rgb(13, 29, 43);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(27, 47, 97, 0.255);
+}
+
+span{
+    display: block;
+    text-align: center;
+    font-size: 80px;
+}
+
+p{
+    font-size: 20px;
+    color:azure;
+    font-weight: 280;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 25px;
+    margin: 30px 0;
+    opacity: 0;
+}
+
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+/* rgba(230, 148, 41, 0.918) */
+
+button{
+    display: block;
+    background-color:rgba(67, 193, 243, 0.911);
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: rgba(6, 7, 26, 0.879);
+    font-weight: 600;
+    padding: 12px 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1{
+    color: rgb(101, 203, 243);
+    text-align: center;
+    padding: 40px 0 30px 0;
+    font-size: 700;
+    background-color: rgb(13, 29, 43);
+}
